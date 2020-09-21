@@ -1,4 +1,4 @@
-package mvc.model;
+package mvc;
 
 import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
 import org.springframework.boot.SpringApplication;

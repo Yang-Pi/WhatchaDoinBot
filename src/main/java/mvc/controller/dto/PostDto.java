@@ -1,7 +1,5 @@
-package mvc.model.controller;
+package mvc.controller.dto;
 
-import javax.persistence.criteria.CriteriaBuilder;
-import java.text.SimpleDateFormat;
 import java.sql.Date;
 
 public class PostDto {

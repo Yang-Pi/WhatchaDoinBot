@@ -1,20 +1,19 @@
-package mvc.model.service;
+package mvc.controller.service;
 
-import mvc.model.controller.GetDto;
-import mvc.model.controller.PostDto;
-import mvc.model.controller.PutDto;
+import mvc.controller.dto.GetDto;
+import mvc.controller.dto.PostDto;
+import mvc.controller.dto.PutDto;
 import mvc.model.entity.Category;
 import mvc.model.entity.Day;
 import mvc.model.entity.User;
 import mvc.model.repository.CategoryRepository;
 import mvc.model.repository.DayRepository;
 import mvc.model.repository.UserRepository;
-import mvc.model.service.exceptions.UserInfoNotFoundException;
-import mvc.model.service.exceptions.UserNotFoundException;
+import mvc.controller.service.exceptions.UserInfoNotFoundException;
+import mvc.controller.service.exceptions.UserNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.sql.Time;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,11 +1,11 @@
-package mvc.model.service;
+package mvc.controller.service;
 
-import mvc.model.controller.GetDto;
-import mvc.model.controller.PostDto;
-import mvc.model.controller.PutDto;
+import mvc.controller.dto.GetDto;
+import mvc.controller.dto.PostDto;
+import mvc.controller.dto.PutDto;
 import mvc.model.entity.User;
-import mvc.model.service.exceptions.UserInfoNotFoundException;
-import mvc.model.service.exceptions.UserNotFoundException;
+import mvc.controller.service.exceptions.UserInfoNotFoundException;
+import mvc.controller.service.exceptions.UserNotFoundException;
 
 public interface UserService {
     User findById(Integer id) throws UserNotFoundException;

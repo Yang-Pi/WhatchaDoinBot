@@ -1,4 +1,4 @@
-package mvc.model.controller;
+package mvc.controller.dto;
 
 import mvc.model.entity.Category;
 import mvc.model.entity.Day;

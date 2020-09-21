@@ -1,6 +1,4 @@
-package mvc.model.controller;
-
-import java.sql.Time;
+package mvc.controller.dto;
 
 public class PutDto {
     private long telegramId;

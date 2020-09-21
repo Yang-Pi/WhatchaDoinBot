@@ -1,9 +1,12 @@
-package mvc.model.controller;
+package mvc.controller;
 
+import mvc.controller.dto.GetDto;
+import mvc.controller.dto.PostDto;
+import mvc.controller.dto.PutDto;
 import mvc.model.entity.User;
-import mvc.model.service.UserService;
-import mvc.model.service.exceptions.UserInfoNotFoundException;
-import mvc.model.service.exceptions.UserNotFoundException;
+import mvc.controller.service.UserService;
+import mvc.controller.service.exceptions.UserInfoNotFoundException;
+import mvc.controller.service.exceptions.UserNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

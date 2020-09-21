@@ -1,4 +1,4 @@
-package mvc.model.service.exceptions;
+package mvc.controller.service.exceptions;
 
 public class UserInfoNotFoundException extends Exception {
     public UserInfoNotFoundException() {
